@@ -7,9 +7,9 @@ The repository builds upon the most current (and stable) version of
 by running `node -v` and `npm -v` in a terminal/console window.
 Older versions produce errors.
 
-## Create a new project based on the QuickStart
+## Create a new project based on this repo
 
-Clone this repo into new project folder (e.g., `my-proj`).
+Clone this repo into new project folder (e.g., `marsProject`).
 ```bash
 git clone  https://github.com/eapostol/ra-base-mars-repo-03  marsProject
 cd marsProject
