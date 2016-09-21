@@ -36,7 +36,7 @@ git commit -m "Initial commit"
 Create a *remote repository* for this project on the service of your choice.
 
 Copy its address (e.g. *`https://github.com/<my-org>/marsProject.git`*) 
-and push the *local repo* to the *remote*. ( <my-org> is your github 
+and push the *local repo* to the *remote*. ( where <<my-org>> is your github 
 account, like mine is eapostol)
 
 ```bash
