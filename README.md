@@ -11,8 +11,8 @@ Older versions produce errors.
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
-git clone  https://github.com/angular/quickstart  my-proj
-cd my-proj
+git clone  https://github.com/eapostol/ra-base-mars-repo-03  marsProject
+cd marsProject
 ```
 
 We have no intention of updating the source on `angular/quickstart`.
@@ -35,7 +35,10 @@ git commit -m "Initial commit"
 
 Create a *remote repository* for this project on the service of your choice.
 
-Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
+Copy its address (e.g. *`https://github.com/<my-org>/marsProject.git`*) 
+and push the *local repo* to the *remote*. ( <my-org> is your github 
+account, like mine is eapostol)
+
 ```bash
 git remote add origin <repo-address>
 git push -u origin master
@@ -46,14 +49,16 @@ git push -u origin master
 
 Install the npm packages described in the `package.json` and verify that it works:
 
-**Attention Windows Developers:  You must run all of these commands in administrator mode**.
+**Attention Windows Developers:  You must run all of these commands in 
+administrator mode**.
 
 ```bash
 npm install
 npm start
 ```
 
-> If the `typings` folder doesn't show up after `npm install` please install them manually with:
+> If the `typings` folder doesn't show up after `npm install` please 
+install them manually with:
 
 > `npm run typings -- install`
 
@@ -63,4 +68,4 @@ Both the compiler and the server watch for file changes.
 
 Shut it down manually with Ctrl-C.
 
-You're ready to write your application.
+You're ready to write your Mars Project!
