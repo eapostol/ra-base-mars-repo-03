@@ -1,4 +1,5 @@
-# Tour of Heroes to Mars (3rd rendition) 
+# Red Academy Angular Project Starter
+# (formerly the Tour of Heroes to Mars (3rd rendition) )
 
 The repository builds upon the most current (and stable) version of 
 [Angular 2.x](https://angular.io/) .
@@ -9,13 +10,13 @@ Older versions produce errors.
 
 ## Create a new project based on this repo
 
-Clone this repo into new project folder (e.g., `marsProject`).
+Clone this repo into new project folder (e.g., `RA-Angular2Project`).
 ```bash
-git clone  https://github.com/eapostol/ra-base-mars-repo-03  marsProject
-cd marsProject
+git clone  https://github.com/eapostol/ra-base-mars-repo-03  RA-Angular2Project
+cd RA-Angular2Project
 ```
 
-We have no intention of updating the source on `angular/quickstart`.
+We have no intention of updating the source on my REPO. `eapostol/ra-base-mars-repo-03`.
 Discard everything "git-like" by deleting the `.git` folder.
 ```bash
 rm -rf .git  # non-Windows
@@ -35,7 +36,7 @@ git commit -m "Initial commit"
 
 Create a *remote repository* for this project on the service of your choice.
 
-Copy its address (e.g. *`https://github.com/<my-org>/marsProject.git`*) 
+Copy its address (e.g. *`https://github.com/<my-org>/RA-Angular2Project.git`*) 
 and push the *local repo* to the *remote*. ( where <<my-org>> is your github 
 account, like mine is eapostol)
 
@@ -49,7 +50,7 @@ git push -u origin master
 
 Install the npm packages described in the `package.json` and verify that it works:
 
-**Attention Windows Developers:  You must run all of these commands in 
+**Attention Windows Developers:  You must run all of these commands in your console
 administrator mode**.
 
 ```bash
@@ -68,4 +69,4 @@ Both the compiler and the server watch for file changes.
 
 Shut it down manually with Ctrl-C.
 
-You're ready to write your Mars Project!
+You're ready to write your Angular2 Project!
