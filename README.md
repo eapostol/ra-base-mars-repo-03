@@ -12,7 +12,7 @@ Older versions produce errors.
 
 Clone this repo into new project folder (e.g., `RA-Angular2Project`).
 ```bash
-git clone  https://github.com/eapostol/ra-base-mars-repo-03  RA-Angular2Project
+git clone  https://github.com/eapostol/ra-base-mars-repo-03.git  RA-Angular2Project
 cd RA-Angular2Project
 ```
 
